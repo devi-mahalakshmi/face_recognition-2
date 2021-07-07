@@ -17,7 +17,7 @@ faces,faceID=fr.labels_for_training_data(r'Give Path Here\train-images') #Give p
 face_recognizer=fr.train_classifier(faces,faceID)
 face_recognizer.save(r'Give Path Here\trainingData.yml') #It will save the trained model. Just give path to where you want to save
 
-name={0:"Ashish",1:"Vijay Deverakonda"}    #Change names accordingly. If you want to recognize only one person then write:- name={0:"name"} thats all. Dont write for id number 1.
+name={0:"dev",1:"krishna"}    #Change names accordingly. to recognize only one person then write:- name={0:"name"}
 
 
 for face in faces_detected:
