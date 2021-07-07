@@ -12,7 +12,7 @@ face_recognizer.read(r'Give Path Here\trainingData.yml')    #Give path of where 
 
 cap=cv2.VideoCapture(0)   #If you want to recognise face from a video then replace 0 with video path
 
-name={0:"Ashish",1:"Vijay Deverakonda"}    #Change names accordingly.  If you want to recognize only one person then write:- name={0:"name"} thats all. Dont write for id number 1.
+name={0:"dev",1:"krishna"}    #Change names accordingly.  to recognize only one person then write:- name={0:"name"}
 while True:
     ret,test_img=cap.read()
     faces_detected,gray_img=fr.faceDetection(test_img)
